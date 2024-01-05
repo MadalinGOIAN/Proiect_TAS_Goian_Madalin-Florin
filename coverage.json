@@ -1,0 +1,1521 @@
+{
+  "Proiect_PSSC.dll": {
+    "D:\\Materie Faculta\\Anul IV\\Sem I\\Testarea Aplicatiilor Software(TAS)\\Proiect\\Testare_Laborator4_PSSC\\Program.cs": {
+      "Program": {
+        "System.Collections.Generic.List`1<Proiect_PSSC.Model.UnvalidatedOrderedProduct> Program::ReadListOfProducts()": {
+          "Lines": {
+            "34": 0,
+            "35": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "47": 0,
+            "48": 0,
+            "50": 0,
+            "51": 0
+          },
+          "Branches": [
+            {
+              "Line": 40,
+              "Offset": 27,
+              "EndOffset": 31,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 44,
+              "Offset": 52,
+              "EndOffset": 56,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 40,
+              "Offset": 27,
+              "EndOffset": 76,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 44,
+              "Offset": 52,
+              "EndOffset": 76,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.String Program::ReadValue(System.String)": {
+          "Lines": {
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0
+          },
+          "Branches": []
+        }
+      },
+      "Program/<>c": {
+        "Proiect_PSSC.Model.ProductOrderPublishedEvent/IProductOrderPublishedEvent Program/<>c::<Main>b__0_0(Proiect_PSSC.Model.ProductOrderPublishedEvent/ProductOrderPublishedSucceededEvent)": {
+          "Lines": {
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0
+          },
+          "Branches": []
+        },
+        "Proiect_PSSC.Model.ProductOrderPublishedEvent/IProductOrderPublishedEvent Program/<>c::<Main>b__0_1(Proiect_PSSC.Model.ProductOrderPublishedEvent/ProductOrderPublishedFailedEvent)": {
+          "Lines": {
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0
+          },
+          "Branches": []
+        }
+      },
+      "Program/<Main>d__0": {
+        "System.Void Program/<Main>d__0::MoveNext()": {
+          "Lines": {
+            "9": 0,
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "17": 0,
+            "18": 0,
+            "23": 0,
+            "31": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Materie Faculta\\Anul IV\\Sem I\\Testarea Aplicatiilor Software(TAS)\\Proiect\\Testare_Laborator4_PSSC\\OrderedProductsOperations.cs": {
+      "Proiect_PSSC.OrderedProductsOperations": {
+        "System.Threading.Tasks.Task`1<Proiect_PSSC.Model.OrderedProducts/IOrderedProducts> Proiect_PSSC.OrderedProductsOperations::ValidateOrderedProducts(System.Func`2<Proiect_PSSC.Model.ProductCode,LanguageExt.TryAsync`1<System.Boolean>>,System.Func`2<Proiect_PSSC.Model.Quantity,LanguageExt.TryAsync`1<System.Boolean>>,Proiect_PSSC.Model.OrderedProducts/UnvalidatedOrderedProducts)": {
+          "Lines": {
+            "14": 22,
+            "15": 22,
+            "16": 22,
+            "17": 2,
+            "18": 22,
+            "19": 20,
+            "20": 20,
+            "21": 20,
+            "22": 22
+          },
+          "Branches": [
+            {
+              "Line": 14,
+              "Offset": 55,
+              "EndOffset": 57,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 14,
+              "Offset": 55,
+              "EndOffset": 76,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 22
+            }
+          ]
+        },
+        "System.Func`2<Proiect_PSSC.Model.UnvalidatedOrderedProduct,LanguageExt.EitherAsync`2<System.String,Proiect_PSSC.Model.ValidatedOrderedProduct>> Proiect_PSSC.OrderedProductsOperations::ValidateProduct(System.Func`2<Proiect_PSSC.Model.ProductCode,LanguageExt.TryAsync`1<System.Boolean>>,System.Func`2<Proiect_PSSC.Model.Quantity,LanguageExt.TryAsync`1<System.Boolean>>)": {
+          "Lines": {
+            "27": 70
+          },
+          "Branches": []
+        },
+        "LanguageExt.EitherAsync`2<System.String,Proiect_PSSC.Model.ValidatedOrderedProduct> Proiect_PSSC.OrderedProductsOperations::ValidateProduct(System.Func`2<Proiect_PSSC.Model.ProductCode,LanguageExt.TryAsync`1<System.Boolean>>,System.Func`2<Proiect_PSSC.Model.Quantity,LanguageExt.TryAsync`1<System.Boolean>>,Proiect_PSSC.Model.UnvalidatedOrderedProduct)": {
+          "Lines": {
+            "32": 48,
+            "33": 48,
+            "34": 10,
+            "35": 66,
+            "36": 76,
+            "37": 56,
+            "38": 56,
+            "39": 28,
+            "40": 28,
+            "41": 76,
+            "42": 48
+          },
+          "Branches": []
+        },
+        "LanguageExt.Either`2<System.String,System.Collections.Generic.List`1<Proiect_PSSC.Model.ValidatedOrderedProduct>> Proiect_PSSC.OrderedProductsOperations::CreateEmptyValidatedProductList()": {
+          "Lines": {
+            "45": 22
+          },
+          "Branches": []
+        },
+        "LanguageExt.EitherAsync`2<System.String,System.Collections.Generic.List`1<Proiect_PSSC.Model.ValidatedOrderedProduct>> Proiect_PSSC.OrderedProductsOperations::ReduceValidProducts(LanguageExt.EitherAsync`2<System.String,System.Collections.Generic.List`1<Proiect_PSSC.Model.ValidatedOrderedProduct>>,LanguageExt.EitherAsync`2<System.String,Proiect_PSSC.Model.ValidatedOrderedProduct>)": {
+          "Lines": {
+            "50": 48,
+            "51": 48,
+            "52": 76
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<Proiect_PSSC.Model.ValidatedOrderedProduct> Proiect_PSSC.OrderedProductsOperations::AppendValidProduct(System.Collections.Generic.List`1<Proiect_PSSC.Model.ValidatedOrderedProduct>,Proiect_PSSC.Model.ValidatedOrderedProduct)": {
+          "Lines": {
+            "56": 28,
+            "57": 28,
+            "58": 28,
+            "59": 28
+          },
+          "Branches": []
+        },
+        "Proiect_PSSC.Model.OrderedProducts/IOrderedProducts Proiect_PSSC.OrderedProductsOperations::CalculateOrderedProducts(Proiect_PSSC.Model.OrderedProducts/IOrderedProducts)": {
+          "Lines": {
+            "62": 17,
+            "63": 11,
+            "64": 1,
+            "65": 1,
+            "66": 16,
+            "67": 2,
+            "68": 2,
+            "69": 10,
+            "70": 10,
+            "71": 10,
+            "72": 16,
+            "73": 2,
+            "74": 18
+          },
+          "Branches": []
+        },
+        "Proiect_PSSC.Model.OrderedProducts/IOrderedProducts Proiect_PSSC.OrderedProductsOperations::PublishOrderedProducts(Proiect_PSSC.Model.OrderedProducts/IOrderedProducts)": {
+          "Lines": {
+            "77": 17,
+            "78": 11,
+            "79": 1,
+            "80": 1,
+            "81": 16,
+            "82": 2,
+            "83": 2,
+            "84": 2,
+            "85": 10,
+            "86": 16,
+            "87": 2,
+            "88": 2,
+            "89": 16,
+            "90": 2,
+            "91": 18
+          },
+          "Branches": []
+        },
+        "Proiect_PSSC.Model.Price Proiect_PSSC.OrderedProductsOperations::CalculateTotalPrice(Proiect_PSSC.Model.ValidatedOrderedProduct)": {
+          "Lines": {
+            "94": 8,
+            "95": 96
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Materie Faculta\\Anul IV\\Sem I\\Testarea Aplicatiilor Software(TAS)\\Proiect\\Testare_Laborator4_PSSC\\OrderProductsWorkflow.cs": {
+      "Proiect_PSSC.OrderProductsWorkflow/<>c": {
+        "Proiect_PSSC.Model.ProductOrderPublishedEvent/IProductOrderPublishedEvent Proiect_PSSC.OrderProductsWorkflow/<>c::<ExecuteAsync>b__0_0(Proiect_PSSC.Model.OrderedProducts/UnvalidatedOrderedProducts)": {
+          "Lines": {
+            "24": 0
+          },
+          "Branches": []
+        },
+        "Proiect_PSSC.Model.ProductOrderPublishedEvent/IProductOrderPublishedEvent Proiect_PSSC.OrderProductsWorkflow/<>c::<ExecuteAsync>b__0_1(Proiect_PSSC.Model.OrderedProducts/InvalidatedOrderedProducts)": {
+          "Lines": {
+            "26": 10
+          },
+          "Branches": []
+        },
+        "Proiect_PSSC.Model.ProductOrderPublishedEvent/IProductOrderPublishedEvent Proiect_PSSC.OrderProductsWorkflow/<>c::<ExecuteAsync>b__0_2(Proiect_PSSC.Model.OrderedProducts/ValidatedOrderedProducts)": {
+          "Lines": {
+            "28": 0
+          },
+          "Branches": []
+        },
+        "Proiect_PSSC.Model.ProductOrderPublishedEvent/IProductOrderPublishedEvent Proiect_PSSC.OrderProductsWorkflow/<>c::<ExecuteAsync>b__0_3(Proiect_PSSC.Model.OrderedProducts/CalculatedOrderedProducts)": {
+          "Lines": {
+            "30": 0
+          },
+          "Branches": []
+        },
+        "Proiect_PSSC.Model.ProductOrderPublishedEvent/IProductOrderPublishedEvent Proiect_PSSC.OrderProductsWorkflow/<>c::<ExecuteAsync>b__0_4(Proiect_PSSC.Model.OrderedProducts/PublishedOrderedProducts)": {
+          "Lines": {
+            "32": 12
+          },
+          "Branches": []
+        }
+      },
+      "Proiect_PSSC.OrderProductsWorkflow/<ExecuteAsync>d__0": {
+        "System.Void Proiect_PSSC.OrderProductsWorkflow/<ExecuteAsync>d__0::MoveNext()": {
+          "Lines": {
+            "14": 11,
+            "15": 11,
+            "16": 11,
+            "17": 11,
+            "18": 11,
+            "19": 11,
+            "20": 11,
+            "22": 11,
+            "23": 11,
+            "25": 11,
+            "27": 11,
+            "29": 11,
+            "31": 11,
+            "33": 11
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Materie Faculta\\Anul IV\\Sem I\\Testarea Aplicatiilor Software(TAS)\\Proiect\\Testare_Laborator4_PSSC\\ProductRepository.cs": {
+      "Proiect_PSSC.ProductRepository": {
+        "System.Void Proiect_PSSC.ProductRepository::.cctor()": {
+          "Lines": {
+            "7": 1,
+            "8": 1,
+            "9": 1,
+            "10": 1,
+            "11": 1,
+            "12": 1,
+            "13": 1,
+            "14": 1,
+            "15": 1,
+            "16": 1,
+            "17": 1,
+            "18": 1,
+            "19": 1,
+            "20": 1,
+            "21": 1,
+            "22": 1,
+            "23": 1,
+            "24": 1,
+            "25": 1
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Materie Faculta\\Anul IV\\Sem I\\Testarea Aplicatiilor Software(TAS)\\Proiect\\Testare_Laborator4_PSSC\\ProductValidator.cs": {
+      "Proiect_PSSC.ProductValidator": {
+        "LanguageExt.TryAsync`1<System.Boolean> Proiect_PSSC.ProductValidator::CheckProductExists(Proiect_PSSC.Model.ProductCode)": {
+          "Lines": {
+            "16": 0
+          },
+          "Branches": [
+            {
+              "Line": 16,
+              "Offset": 6,
+              "EndOffset": 8,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 16,
+              "Offset": 6,
+              "EndOffset": 31,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "LanguageExt.TryAsync`1<System.Boolean> Proiect_PSSC.ProductValidator::CheckProductIsInStock(Proiect_PSSC.Model.Quantity)": {
+          "Lines": {
+            "18": 0
+          },
+          "Branches": [
+            {
+              "Line": 18,
+              "Offset": 6,
+              "EndOffset": 8,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 18,
+              "Offset": 6,
+              "EndOffset": 31,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "D:\\Materie Faculta\\Anul IV\\Sem I\\Testarea Aplicatiilor Software(TAS)\\Proiect\\Testare_Laborator4_PSSC\\Model\\CalculatedOrderedProduct.cs": {
+      "Proiect_PSSC.Model.CalculatedOrderedProduct": {
+        "Proiect_PSSC.Model.ProductCode Proiect_PSSC.Model.CalculatedOrderedProduct::get_ProductCode()": {
+          "Lines": {
+            "3": 112
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Materie Faculta\\Anul IV\\Sem I\\Testarea Aplicatiilor Software(TAS)\\Proiect\\Testare_Laborator4_PSSC\\Model\\Client.cs": {
+      "Proiect_PSSC.Model.Client": {
+        "System.String Proiect_PSSC.Model.Client::get_Name()": {
+          "Lines": {
+            "5": 0
+          },
+          "Branches": []
+        },
+        "System.String Proiect_PSSC.Model.Client::get_Adress()": {
+          "Lines": {
+            "6": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Materie Faculta\\Anul IV\\Sem I\\Testarea Aplicatiilor Software(TAS)\\Proiect\\Testare_Laborator4_PSSC\\CSharp.Choices.Generators\\CSharp.Choices.Generators.ChoiceGenerator\\OrderedProducts.Generated.cs": {
+      "Proiect_PSSC.Model.OrderedProducts": {
+        "Proiect_PSSC.Model.OrderedProducts/IOrderedProducts Proiect_PSSC.Model.OrderedProducts::Match(Proiect_PSSC.Model.OrderedProducts/IOrderedProducts,System.Func`2<Proiect_PSSC.Model.OrderedProducts/UnvalidatedOrderedProducts,Proiect_PSSC.Model.OrderedProducts/IOrderedProducts>,System.Func`2<Proiect_PSSC.Model.OrderedProducts/InvalidatedOrderedProducts,Proiect_PSSC.Model.OrderedProducts/IOrderedProducts>,System.Func`2<Proiect_PSSC.Model.OrderedProducts/ValidatedOrderedProducts,Proiect_PSSC.Model.OrderedProducts/IOrderedProducts>,System.Func`2<Proiect_PSSC.Model.OrderedProducts/CalculatedOrderedProducts,Proiect_PSSC.Model.OrderedProducts/IOrderedProducts>,System.Func`2<Proiect_PSSC.Model.OrderedProducts/PublishedOrderedProducts,Proiect_PSSC.Model.OrderedProducts/IOrderedProducts>)": {
+          "Lines": {
+            "7": 32,
+            "8": 32,
+            "11": 2,
+            "13": 22,
+            "15": 3,
+            "17": 3,
+            "19": 2,
+            "21": 0,
+            "23": 32
+          },
+          "Branches": [
+            {
+              "Line": 8,
+              "Offset": 17,
+              "EndOffset": 19,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 30
+            },
+            {
+              "Line": 8,
+              "Offset": 28,
+              "EndOffset": 30,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 8
+            },
+            {
+              "Line": 8,
+              "Offset": 39,
+              "EndOffset": 41,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 5
+            },
+            {
+              "Line": 8,
+              "Offset": 50,
+              "EndOffset": 52,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 2
+            },
+            {
+              "Line": 8,
+              "Offset": 17,
+              "EndOffset": 69,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 2
+            },
+            {
+              "Line": 8,
+              "Offset": 28,
+              "EndOffset": 82,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 22
+            },
+            {
+              "Line": 8,
+              "Offset": 39,
+              "EndOffset": 95,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 3
+            },
+            {
+              "Line": 8,
+              "Offset": 50,
+              "EndOffset": 108,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 3
+            },
+            {
+              "Line": 8,
+              "Offset": 63,
+              "EndOffset": 122,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 2
+            },
+            {
+              "Line": 8,
+              "Offset": 63,
+              "EndOffset": 135,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            }
+          ]
+        },
+        "R Proiect_PSSC.Model.OrderedProducts::Match(Proiect_PSSC.Model.OrderedProducts/IOrderedProducts,System.Func`2<Proiect_PSSC.Model.OrderedProducts/UnvalidatedOrderedProducts,R>,System.Func`2<Proiect_PSSC.Model.OrderedProducts/InvalidatedOrderedProducts,R>,System.Func`2<Proiect_PSSC.Model.OrderedProducts/ValidatedOrderedProducts,R>,System.Func`2<Proiect_PSSC.Model.OrderedProducts/CalculatedOrderedProducts,R>,System.Func`2<Proiect_PSSC.Model.OrderedProducts/PublishedOrderedProducts,R>)": {
+          "Lines": {
+            "45": 11,
+            "46": 11,
+            "49": 0,
+            "51": 10,
+            "53": 0,
+            "55": 0,
+            "57": 1,
+            "59": 0,
+            "61": 11
+          },
+          "Branches": [
+            {
+              "Line": 46,
+              "Offset": 17,
+              "EndOffset": 19,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 11
+            },
+            {
+              "Line": 46,
+              "Offset": 28,
+              "EndOffset": 30,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 46,
+              "Offset": 39,
+              "EndOffset": 41,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 1
+            },
+            {
+              "Line": 46,
+              "Offset": 50,
+              "EndOffset": 52,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 1
+            },
+            {
+              "Line": 46,
+              "Offset": 17,
+              "EndOffset": 69,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 46,
+              "Offset": 28,
+              "EndOffset": 82,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 10
+            },
+            {
+              "Line": 46,
+              "Offset": 39,
+              "EndOffset": 95,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 46,
+              "Offset": 50,
+              "EndOffset": 108,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 46,
+              "Offset": 63,
+              "EndOffset": 122,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 1
+            },
+            {
+              "Line": 46,
+              "Offset": 63,
+              "EndOffset": 135,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Proiect_PSSC.Model.OrderedProducts/<MatchAsync>d__7": {
+        "System.Void Proiect_PSSC.Model.OrderedProducts/<MatchAsync>d__7::MoveNext()": {
+          "Lines": {
+            "26": 0,
+            "27": 0,
+            "30": 0,
+            "32": 0,
+            "34": 0,
+            "36": 0,
+            "38": 0,
+            "40": 0,
+            "42": 0
+          },
+          "Branches": [
+            {
+              "Line": 27,
+              "Offset": 98,
+              "EndOffset": 100,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 27,
+              "Offset": 123,
+              "EndOffset": 128,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 27,
+              "Offset": 151,
+              "EndOffset": 156,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 27,
+              "Offset": 179,
+              "EndOffset": 184,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 27,
+              "Offset": 98,
+              "EndOffset": 219,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 27,
+              "Offset": 123,
+              "EndOffset": 346,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 27,
+              "Offset": 151,
+              "EndOffset": 476,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 27,
+              "Offset": 179,
+              "EndOffset": 606,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 27,
+              "Offset": 207,
+              "EndOffset": 736,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            },
+            {
+              "Line": 27,
+              "Offset": 207,
+              "EndOffset": 858,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Proiect_PSSC.Model.OrderedProducts/<MatchAsync>d__9`1": {
+        "System.Void Proiect_PSSC.Model.OrderedProducts/<MatchAsync>d__9`1::MoveNext()": {
+          "Lines": {
+            "64": 0,
+            "65": 0,
+            "68": 0,
+            "70": 0,
+            "72": 0,
+            "74": 0,
+            "76": 0,
+            "78": 0,
+            "80": 0
+          },
+          "Branches": [
+            {
+              "Line": 65,
+              "Offset": 98,
+              "EndOffset": 100,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 65,
+              "Offset": 123,
+              "EndOffset": 128,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 65,
+              "Offset": 151,
+              "EndOffset": 156,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 65,
+              "Offset": 179,
+              "EndOffset": 184,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 65,
+              "Offset": 98,
+              "EndOffset": 219,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 65,
+              "Offset": 123,
+              "EndOffset": 346,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 65,
+              "Offset": 151,
+              "EndOffset": 476,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 65,
+              "Offset": 179,
+              "EndOffset": 606,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 65,
+              "Offset": 207,
+              "EndOffset": 736,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            },
+            {
+              "Line": 65,
+              "Offset": 207,
+              "EndOffset": 858,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "D:\\Materie Faculta\\Anul IV\\Sem I\\Testarea Aplicatiilor Software(TAS)\\Proiect\\Testare_Laborator4_PSSC\\Model\\OrderedProducts.cs": {
+      "Proiect_PSSC.Model.OrderedProducts/UnvalidatedOrderedProducts": {
+        "System.Collections.Generic.IReadOnlyCollection`1<Proiect_PSSC.Model.UnvalidatedOrderedProduct> Proiect_PSSC.Model.OrderedProducts/UnvalidatedOrderedProducts::get_ProductList()": {
+          "Lines": {
+            "15": 44
+          },
+          "Branches": []
+        },
+        "System.Void Proiect_PSSC.Model.OrderedProducts/UnvalidatedOrderedProducts::.ctor(System.Collections.Generic.IReadOnlyCollection`1<Proiect_PSSC.Model.UnvalidatedOrderedProduct>)": {
+          "Lines": {
+            "12": 42,
+            "13": 42
+          },
+          "Branches": []
+        }
+      },
+      "Proiect_PSSC.Model.OrderedProducts/InvalidatedOrderedProducts": {
+        "System.Collections.Generic.IReadOnlyCollection`1<Proiect_PSSC.Model.UnvalidatedOrderedProduct> Proiect_PSSC.Model.OrderedProducts/InvalidatedOrderedProducts::get_ProductList()": {
+          "Lines": {
+            "26": 12
+          },
+          "Branches": []
+        },
+        "System.String Proiect_PSSC.Model.OrderedProducts/InvalidatedOrderedProducts::get_Reason()": {
+          "Lines": {
+            "27": 22
+          },
+          "Branches": []
+        },
+        "System.Void Proiect_PSSC.Model.OrderedProducts/InvalidatedOrderedProducts::.ctor(System.Collections.Generic.IReadOnlyCollection`1<Proiect_PSSC.Model.UnvalidatedOrderedProduct>,System.String)": {
+          "Lines": {
+            "20": 41,
+            "21": 41,
+            "22": 41,
+            "23": 41,
+            "24": 41
+          },
+          "Branches": []
+        }
+      },
+      "Proiect_PSSC.Model.OrderedProducts/ValidatedOrderedProducts": {
+        "System.Collections.Generic.IReadOnlyCollection`1<Proiect_PSSC.Model.ValidatedOrderedProduct> Proiect_PSSC.Model.OrderedProducts/ValidatedOrderedProducts::get_ProductList()": {
+          "Lines": {
+            "35": 4
+          },
+          "Branches": []
+        },
+        "System.Void Proiect_PSSC.Model.OrderedProducts/ValidatedOrderedProducts::.ctor(System.Collections.Generic.IReadOnlyCollection`1<Proiect_PSSC.Model.ValidatedOrderedProduct>)": {
+          "Lines": {
+            "32": 23,
+            "33": 23
+          },
+          "Branches": []
+        }
+      },
+      "Proiect_PSSC.Model.OrderedProducts/CalculatedOrderedProducts": {
+        "System.Collections.Generic.IReadOnlyCollection`1<Proiect_PSSC.Model.CalculatedOrderedProduct> Proiect_PSSC.Model.OrderedProducts/CalculatedOrderedProducts::get_ProductList()": {
+          "Lines": {
+            "43": 8
+          },
+          "Branches": []
+        },
+        "System.Void Proiect_PSSC.Model.OrderedProducts/CalculatedOrderedProducts::.ctor(System.Collections.Generic.IReadOnlyCollection`1<Proiect_PSSC.Model.CalculatedOrderedProduct>)": {
+          "Lines": {
+            "40": 24,
+            "41": 24
+          },
+          "Branches": []
+        }
+      },
+      "Proiect_PSSC.Model.OrderedProducts/PublishedOrderedProducts": {
+        "System.Collections.Generic.IReadOnlyCollection`1<Proiect_PSSC.Model.CalculatedOrderedProduct> Proiect_PSSC.Model.OrderedProducts/PublishedOrderedProducts::get_ProductList()": {
+          "Lines": {
+            "55": 3
+          },
+          "Branches": []
+        },
+        "System.DateTime Proiect_PSSC.Model.OrderedProducts/PublishedOrderedProducts::get_PublishedDate()": {
+          "Lines": {
+            "56": 8
+          },
+          "Branches": []
+        },
+        "System.String Proiect_PSSC.Model.OrderedProducts/PublishedOrderedProducts::get_Csv()": {
+          "Lines": {
+            "57": 4
+          },
+          "Branches": []
+        },
+        "System.Void Proiect_PSSC.Model.OrderedProducts/PublishedOrderedProducts::.ctor(System.Collections.Generic.IReadOnlyCollection`1<Proiect_PSSC.Model.CalculatedOrderedProduct>,System.String,System.DateTime)": {
+          "Lines": {
+            "48": 23,
+            "49": 23,
+            "50": 23,
+            "51": 23,
+            "52": 23,
+            "53": 23
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Materie Faculta\\Anul IV\\Sem I\\Testarea Aplicatiilor Software(TAS)\\Proiect\\Testare_Laborator4_PSSC\\Model\\OrderProductsCommand.cs": {
+      "Proiect_PSSC.Model.OrderProductsCommand": {
+        "System.Collections.Generic.IReadOnlyCollection`1<Proiect_PSSC.Model.UnvalidatedOrderedProduct> Proiect_PSSC.Model.OrderProductsCommand::get_InputOrderedProducts()": {
+          "Lines": {
+            "8": 11
+          },
+          "Branches": []
+        },
+        "System.Void Proiect_PSSC.Model.OrderProductsCommand::.ctor(System.Collections.Generic.IReadOnlyCollection`1<Proiect_PSSC.Model.UnvalidatedOrderedProduct>)": {
+          "Lines": {
+            "5": 11,
+            "6": 11
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Materie Faculta\\Anul IV\\Sem I\\Testarea Aplicatiilor Software(TAS)\\Proiect\\Testare_Laborator4_PSSC\\Model\\Price.cs": {
+      "Proiect_PSSC.Model.Price": {
+        "System.Decimal Proiect_PSSC.Model.Price::get_Value()": {
+          "Lines": {
+            "7": 35
+          },
+          "Branches": []
+        },
+        "System.String Proiect_PSSC.Model.Price::ToString()": {
+          "Lines": {
+            "16": 1
+          },
+          "Branches": []
+        },
+        "System.Boolean Proiect_PSSC.Model.Price::TryParsePrice(System.String,Proiect_PSSC.Model.Price&)": {
+          "Lines": {
+            "19": 15,
+            "20": 15,
+            "21": 15,
+            "23": 15,
+            "24": 10,
+            "25": 10,
+            "26": 5,
+            "27": 5,
+            "28": 5,
+            "29": 5,
+            "30": 10,
+            "32": 15,
+            "33": 15
+          },
+          "Branches": [
+            {
+              "Line": 23,
+              "Offset": 16,
+              "EndOffset": 18,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 10
+            },
+            {
+              "Line": 25,
+              "Offset": 27,
+              "EndOffset": 29,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 5
+            },
+            {
+              "Line": 25,
+              "Offset": 27,
+              "EndOffset": 41,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 10
+            },
+            {
+              "Line": 23,
+              "Offset": 16,
+              "EndOffset": 42,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 15
+            }
+          ]
+        },
+        "System.Boolean Proiect_PSSC.Model.Price::IsValid(System.Decimal)": {
+          "Lines": {
+            "35": 83
+          },
+          "Branches": []
+        },
+        "System.Void Proiect_PSSC.Model.Price::.ctor(System.Decimal)": {
+          "Lines": {
+            "9": 73,
+            "10": 73,
+            "11": 73,
+            "12": 68,
+            "13": 5,
+            "14": 68
+          },
+          "Branches": [
+            {
+              "Line": 11,
+              "Offset": 16,
+              "EndOffset": 18,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 68
+            },
+            {
+              "Line": 11,
+              "Offset": 16,
+              "EndOffset": 27,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 5
+            }
+          ]
+        }
+      }
+    },
+    "D:\\Materie Faculta\\Anul IV\\Sem I\\Testarea Aplicatiilor Software(TAS)\\Proiect\\Testare_Laborator4_PSSC\\Model\\Product.cs": {
+      "Proiect_PSSC.Model.Product": {
+        "Proiect_PSSC.Model.ProductCode Proiect_PSSC.Model.Product::get_ProductCode()": {
+          "Lines": {
+            "5": 104
+          },
+          "Branches": []
+        },
+        "Proiect_PSSC.Model.Price Proiect_PSSC.Model.Product::get_Price()": {
+          "Lines": {
+            "6": 24
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Materie Faculta\\Anul IV\\Sem I\\Testarea Aplicatiilor Software(TAS)\\Proiect\\Testare_Laborator4_PSSC\\Model\\ProductCode.cs": {
+      "Proiect_PSSC.Model.ProductCode": {
+        "System.String Proiect_PSSC.Model.ProductCode::get_Value()": {
+          "Lines": {
+            "11": 27
+          },
+          "Branches": []
+        },
+        "System.Boolean Proiect_PSSC.Model.ProductCode::IsValid(System.String)": {
+          "Lines": {
+            "20": 160
+          },
+          "Branches": []
+        },
+        "System.String Proiect_PSSC.Model.ProductCode::ToString()": {
+          "Lines": {
+            "22": 1
+          },
+          "Branches": []
+        },
+        "LanguageExt.Option`1<Proiect_PSSC.Model.ProductCode> Proiect_PSSC.Model.ProductCode::TryParse(System.String)": {
+          "Lines": {
+            "25": 58,
+            "26": 58,
+            "27": 43,
+            "29": 15,
+            "30": 58
+          },
+          "Branches": [
+            {
+              "Line": 26,
+              "Offset": 9,
+              "EndOffset": 11,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 43
+            },
+            {
+              "Line": 26,
+              "Offset": 9,
+              "EndOffset": 25,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 15
+            }
+          ]
+        },
+        "System.Void Proiect_PSSC.Model.ProductCode::.ctor(System.String)": {
+          "Lines": {
+            "13": 102,
+            "14": 102,
+            "15": 102,
+            "16": 97,
+            "17": 5,
+            "18": 97
+          },
+          "Branches": [
+            {
+              "Line": 15,
+              "Offset": 16,
+              "EndOffset": 18,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 97
+            },
+            {
+              "Line": 15,
+              "Offset": 16,
+              "EndOffset": 27,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 5
+            }
+          ]
+        },
+        "System.Void Proiect_PSSC.Model.ProductCode::.cctor()": {
+          "Lines": {
+            "10": 1
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Materie Faculta\\Anul IV\\Sem I\\Testarea Aplicatiilor Software(TAS)\\Proiect\\Testare_Laborator4_PSSC\\CSharp.Choices.Generators\\CSharp.Choices.Generators.ChoiceGenerator\\ProductOrderPublishedEvent.Generated.cs": {
+      "Proiect_PSSC.Model.ProductOrderPublishedEvent": {
+        "Proiect_PSSC.Model.ProductOrderPublishedEvent/IProductOrderPublishedEvent Proiect_PSSC.Model.ProductOrderPublishedEvent::Match(Proiect_PSSC.Model.ProductOrderPublishedEvent/IProductOrderPublishedEvent,System.Func`2<Proiect_PSSC.Model.ProductOrderPublishedEvent/ProductOrderPublishedSucceededEvent,Proiect_PSSC.Model.ProductOrderPublishedEvent/IProductOrderPublishedEvent>,System.Func`2<Proiect_PSSC.Model.ProductOrderPublishedEvent/ProductOrderPublishedFailedEvent,Proiect_PSSC.Model.ProductOrderPublishedEvent/IProductOrderPublishedEvent>)": {
+          "Lines": {
+            "7": 0,
+            "8": 0,
+            "11": 0,
+            "13": 0,
+            "15": 0,
+            "17": 0
+          },
+          "Branches": [
+            {
+              "Line": 8,
+              "Offset": 13,
+              "EndOffset": 15,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 8,
+              "Offset": 13,
+              "EndOffset": 29,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 8,
+              "Offset": 23,
+              "EndOffset": 42,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 8,
+              "Offset": 23,
+              "EndOffset": 53,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            }
+          ]
+        },
+        "R Proiect_PSSC.Model.ProductOrderPublishedEvent::Match(Proiect_PSSC.Model.ProductOrderPublishedEvent/IProductOrderPublishedEvent,System.Func`2<Proiect_PSSC.Model.ProductOrderPublishedEvent/ProductOrderPublishedSucceededEvent,R>,System.Func`2<Proiect_PSSC.Model.ProductOrderPublishedEvent/ProductOrderPublishedFailedEvent,R>)": {
+          "Lines": {
+            "33": 0,
+            "34": 0,
+            "37": 0,
+            "39": 0,
+            "41": 0,
+            "43": 0
+          },
+          "Branches": [
+            {
+              "Line": 34,
+              "Offset": 13,
+              "EndOffset": 15,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 34,
+              "Offset": 13,
+              "EndOffset": 29,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 34,
+              "Offset": 23,
+              "EndOffset": 42,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 34,
+              "Offset": 23,
+              "EndOffset": 53,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Proiect_PSSC.Model.ProductOrderPublishedEvent/<MatchAsync>d__4": {
+        "System.Void Proiect_PSSC.Model.ProductOrderPublishedEvent/<MatchAsync>d__4::MoveNext()": {
+          "Lines": {
+            "20": 0,
+            "21": 0,
+            "24": 0,
+            "26": 0,
+            "28": 0,
+            "30": 0
+          },
+          "Branches": [
+            {
+              "Line": 21,
+              "Offset": 66,
+              "EndOffset": 68,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 21,
+              "Offset": 66,
+              "EndOffset": 103,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 21,
+              "Offset": 91,
+              "EndOffset": 230,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 21,
+              "Offset": 91,
+              "EndOffset": 352,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Proiect_PSSC.Model.ProductOrderPublishedEvent/<MatchAsync>d__6`1": {
+        "System.Void Proiect_PSSC.Model.ProductOrderPublishedEvent/<MatchAsync>d__6`1::MoveNext()": {
+          "Lines": {
+            "46": 0,
+            "47": 0,
+            "50": 0,
+            "52": 0,
+            "54": 0,
+            "56": 0
+          },
+          "Branches": [
+            {
+              "Line": 47,
+              "Offset": 66,
+              "EndOffset": 68,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 47,
+              "Offset": 66,
+              "EndOffset": 103,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 47,
+              "Offset": 91,
+              "EndOffset": 230,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 47,
+              "Offset": 91,
+              "EndOffset": 352,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "D:\\Materie Faculta\\Anul IV\\Sem I\\Testarea Aplicatiilor Software(TAS)\\Proiect\\Testare_Laborator4_PSSC\\Model\\ProductOrderPublishedEvent.cs": {
+      "Proiect_PSSC.Model.ProductOrderPublishedEvent/ProductOrderPublishedSucceededEvent": {
+        "System.String Proiect_PSSC.Model.ProductOrderPublishedEvent/ProductOrderPublishedSucceededEvent::get_Csv()": {
+          "Lines": {
+            "12": 1
+          },
+          "Branches": []
+        },
+        "System.DateTime Proiect_PSSC.Model.ProductOrderPublishedEvent/ProductOrderPublishedSucceededEvent::get_PublishedDate()": {
+          "Lines": {
+            "13": 3
+          },
+          "Branches": []
+        },
+        "System.Void Proiect_PSSC.Model.ProductOrderPublishedEvent/ProductOrderPublishedSucceededEvent::.ctor(System.String,System.DateTime)": {
+          "Lines": {
+            "15": 1,
+            "16": 1,
+            "17": 1,
+            "18": 1,
+            "19": 1
+          },
+          "Branches": []
+        }
+      },
+      "Proiect_PSSC.Model.ProductOrderPublishedEvent/ProductOrderPublishedFailedEvent": {
+        "System.String Proiect_PSSC.Model.ProductOrderPublishedEvent/ProductOrderPublishedFailedEvent::get_Reason()": {
+          "Lines": {
+            "24": 10
+          },
+          "Branches": []
+        },
+        "System.Void Proiect_PSSC.Model.ProductOrderPublishedEvent/ProductOrderPublishedFailedEvent::.ctor(System.String)": {
+          "Lines": {
+            "26": 20
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Materie Faculta\\Anul IV\\Sem I\\Testarea Aplicatiilor Software(TAS)\\Proiect\\Testare_Laborator4_PSSC\\Model\\Quantity.cs": {
+      "Proiect_PSSC.Model.Quantity": {
+        "System.Int32 Proiect_PSSC.Model.Quantity::get_Value()": {
+          "Lines": {
+            "9": 35
+          },
+          "Branches": []
+        },
+        "System.String Proiect_PSSC.Model.Quantity::ToString()": {
+          "Lines": {
+            "18": 1
+          },
+          "Branches": []
+        },
+        "LanguageExt.Option`1<Proiect_PSSC.Model.Quantity> Proiect_PSSC.Model.Quantity::TryParse(System.String)": {
+          "Lines": {
+            "21": 53,
+            "22": 53,
+            "23": 33,
+            "25": 20,
+            "26": 53
+          },
+          "Branches": [
+            {
+              "Line": 22,
+              "Offset": 9,
+              "EndOffset": 11,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 42
+            },
+            {
+              "Line": 22,
+              "Offset": 9,
+              "EndOffset": 19,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 11
+            },
+            {
+              "Line": 22,
+              "Offset": 22,
+              "EndOffset": 24,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 33
+            },
+            {
+              "Line": 22,
+              "Offset": 22,
+              "EndOffset": 38,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 20
+            }
+          ]
+        },
+        "System.Boolean Proiect_PSSC.Model.Quantity::IsValid(System.Int32)": {
+          "Lines": {
+            "28": 123
+          },
+          "Branches": []
+        },
+        "System.Void Proiect_PSSC.Model.Quantity::.ctor(System.Int32)": {
+          "Lines": {
+            "11": 81,
+            "12": 81,
+            "13": 81,
+            "14": 76,
+            "15": 5,
+            "16": 76
+          },
+          "Branches": [
+            {
+              "Line": 13,
+              "Offset": 16,
+              "EndOffset": 18,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 76
+            },
+            {
+              "Line": 13,
+              "Offset": 16,
+              "EndOffset": 27,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 5
+            }
+          ]
+        }
+      }
+    },
+    "D:\\Materie Faculta\\Anul IV\\Sem I\\Testarea Aplicatiilor Software(TAS)\\Proiect\\Testare_Laborator4_PSSC\\Model\\UnvalidatedOrderedProduct.cs": {
+      "Proiect_PSSC.Model.UnvalidatedOrderedProduct": {
+        "System.String Proiect_PSSC.Model.UnvalidatedOrderedProduct::get_ProductCode()": {
+          "Lines": {
+            "3": 250
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Materie Faculta\\Anul IV\\Sem I\\Testarea Aplicatiilor Software(TAS)\\Proiect\\Testare_Laborator4_PSSC\\Model\\ValidatedOrderedProduct.cs": {
+      "Proiect_PSSC.Model.ValidatedOrderedProduct": {
+        "Proiect_PSSC.Model.ProductCode Proiect_PSSC.Model.ValidatedOrderedProduct::get_ProductCode()": {
+          "Lines": {
+            "3": 208
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Materie Faculta\\Anul IV\\Sem I\\Testarea Aplicatiilor Software(TAS)\\Proiect\\Testare_Laborator4_PSSC\\Model\\Exceptions\\InvalidPriceException.cs": {
+      "Proiect_PSSC.Model.Exceptions.InvalidPriceException": {
+        "System.Void Proiect_PSSC.Model.Exceptions.InvalidPriceException::.ctor()": {
+          "Lines": {
+            "8": 0
+          },
+          "Branches": []
+        },
+        "System.Void Proiect_PSSC.Model.Exceptions.InvalidPriceException::.ctor(System.String)": {
+          "Lines": {
+            "9": 15
+          },
+          "Branches": []
+        },
+        "System.Void Proiect_PSSC.Model.Exceptions.InvalidPriceException::.ctor(System.String,System.Exception)": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        },
+        "System.Void Proiect_PSSC.Model.Exceptions.InvalidPriceException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)": {
+          "Lines": {
+            "11": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Materie Faculta\\Anul IV\\Sem I\\Testarea Aplicatiilor Software(TAS)\\Proiect\\Testare_Laborator4_PSSC\\Model\\Exceptions\\InvalidProductCodeException.cs": {
+      "Proiect_PSSC.Model.Exceptions.InvalidProductCodeException": {
+        "System.Void Proiect_PSSC.Model.Exceptions.InvalidProductCodeException::.ctor()": {
+          "Lines": {
+            "8": 0
+          },
+          "Branches": []
+        },
+        "System.Void Proiect_PSSC.Model.Exceptions.InvalidProductCodeException::.ctor(System.String)": {
+          "Lines": {
+            "9": 15
+          },
+          "Branches": []
+        },
+        "System.Void Proiect_PSSC.Model.Exceptions.InvalidProductCodeException::.ctor(System.String,System.Exception)": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        },
+        "System.Void Proiect_PSSC.Model.Exceptions.InvalidProductCodeException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)": {
+          "Lines": {
+            "11": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Materie Faculta\\Anul IV\\Sem I\\Testarea Aplicatiilor Software(TAS)\\Proiect\\Testare_Laborator4_PSSC\\Model\\Exceptions\\InvalidQuantityException.cs": {
+      "Proiect_PSSC.Model.Exceptions.InvalidQuantityException": {
+        "System.Void Proiect_PSSC.Model.Exceptions.InvalidQuantityException::.ctor()": {
+          "Lines": {
+            "8": 0
+          },
+          "Branches": []
+        },
+        "System.Void Proiect_PSSC.Model.Exceptions.InvalidQuantityException::.ctor(System.String)": {
+          "Lines": {
+            "9": 15
+          },
+          "Branches": []
+        },
+        "System.Void Proiect_PSSC.Model.Exceptions.InvalidQuantityException::.ctor(System.String,System.Exception)": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        },
+        "System.Void Proiect_PSSC.Model.Exceptions.InvalidQuantityException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)": {
+          "Lines": {
+            "11": 0
+          },
+          "Branches": []
+        }
+      }
+    }
+  }
+}
